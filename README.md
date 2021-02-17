@@ -35,7 +35,8 @@ Before running the macro, you should open a file with growing root hairs (e.g. a
 
 ### Use of the tracking macro
 #### Aim of the macro
-This macro should be run on time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse thoose ROIs. The main steps consists in:
+This macro should be run on a **gray scale** time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse all thoose ROIs. The main steps consists in:
+
 1. Drawing a coarse skeleton of the root hair on the final slice (manual step)
 
 <img src = "/Images/Tracking_macro_2-Coarse_skeleton.jpg" width = "800">
@@ -64,4 +65,7 @@ This macro should be run on time lapse acquisitions where ROIs have been drawn o
 <img src = "/Images/Tracking_macro_7-result.jpg" width = "800">
 
 #### Running the macro
-The steps labeled with "******" can be modified if some adjustement are needed (look for them with the research tool. Shortcut: "ctlr + F"). Other steps can be of course modified, but this will be more tricky ^^
+Before running the macro:
+* check the steps labeled with "******". They can be modified if some adjustements are needed depending on your image. You can look for them using the research tool of ImageJ, in the script window (Shortcut: "ctlr + F"). Recommandations about the modifications possibles are written directly next to the steps that can be modified.
+* Open the gray scale time laps of a root.
+* Create or import already drawn ROIs covering the RH to analyse (e.g. ROIs generated with the macro "Pre-root hair tracking").
