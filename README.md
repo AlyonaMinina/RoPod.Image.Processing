@@ -42,15 +42,15 @@ This macro should be run on time lapse acquisitions where ROIs have been drawn o
 If there are several ROIs, this macro will loop to successively analyse thoose ROIs. The main steps consists in:
 1. Drawing a coarse skeleton of the root hair (manual step)
 
-<img src = "/Images/Tracking_macro_1-Hair_to_process.jpg" height = "300">
+<img src = "/Images/Tracking_macro_1-Hair_to_process.jpg" height = "150">
 
 2. Cleaning the surrounding area to facilitate the detection
 
-<img src = "/Images/Tracking_macro_3-Surrounding_cleaning.jpg" height = "300">
+<img src = "/Images/Tracking_macro_3-Surrounding_cleaning.jpg" height = "150">
 
 3. Thresholding the hair
 
-<img src = "/Images/Tracking_macro_4-Thresholding.jpg" height = "300">
+<img src = "/Images/Tracking_macro_4-Thresholding.jpg" height = "150">
 
 4. Performing a last background cleaning (manual step)
 5. Identifying the hair tip
@@ -60,11 +60,11 @@ If there are several ROIs, this macro will loop to successively analyse thoose R
 6. Performing a hair trackinf correction (manual step)
 7. Performing a drifting correction (useful for the early steps of hair growth)
 
-<img src = "/Images/Tracking_macro_6-Drift_correction.jpg" height = "300">
+<img src = "/Images/Tracking_macro_6-Drift_correction.jpg" height = "150">
 
 8. For each hair, save the tracking result as a ROI and the hair growth over time in a table
 
-<img src = "/Images/Tracking_macro_7-result.jpg" height = "300">
+<img src = "/Images/Tracking_macro_7-result.jpg" height = "150">
 
 #### Running the macro
 The steps labeled with "******" can be modified if some adjustement are needed (look for them with the research tool. Shortcut: "ctlr + F"). Other steps can be of course modified, but this will be more tricky ^^
