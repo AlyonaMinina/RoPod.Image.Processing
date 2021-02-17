@@ -36,7 +36,7 @@ Before running the macro, you should open a file with growing root hairs (e.g. a
 ### Use of the tracking macro
 #### Aim of the macro
 This macro should be run on time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse thoose ROIs. The main steps consists in:
-1. Drawing a coarse skeleton of the root hair (manual step)
+1. Drawing a coarse skeleton of the root hair on the final slice (manual step)
 
 <img src = "/Images/Tracking_macro_2-Coarse_skeleton.jpg" height = "150">
 
