@@ -17,4 +17,4 @@ the tip of a growing root hair
 
  <img src = "/Images/Hair_tracking.gif" height = "100">
 
-It is a semi-automated method that requires the software [ImageJ](https://imagej.nih.gov/ij/), a [pre roo hair tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/1-Pre-root%20hair%20tracking and the chore [tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/2-Root%20hair%20tracking).
+It is a semi-automated method that requires the software [ImageJ](https://imagej.nih.gov/ij/), a [pre roo hair tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/1-Pre-root%20hair%20tracking) and the chore [tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/2-Root%20hair%20tracking).
