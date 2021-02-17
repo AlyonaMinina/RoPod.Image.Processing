@@ -15,7 +15,7 @@ This method allows to track, from an image stack of a growing root,
 
 the tip of a growing root hair
 
- <img src = "/Images/Hair_tracking.gif" height = "100">
+ <img src = "/Images/Hair_tracking.gif" width = "800">
 
 It is a semi-automated method that requires the software [ImageJ](https://imagej.nih.gov/ij/), a [pre roo hair tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/1-Pre-root%20hair%20tracking) and the chore [tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/2-Root%20hair%20tracking).
 
@@ -38,16 +38,16 @@ Before running the macro, you should open a file with growing root hairs (e.g. a
 This macro should be run on time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse thoose ROIs. The main steps consists in:
 1. Drawing a coarse skeleton of the root hair on the final slice (manual step)
 
-<img src = "/Images/Tracking_macro_2-Coarse_skeleton.jpg" width = "1000">
+<img src = "/Images/Tracking_macro_2-Coarse_skeleton.jpg" width = "800">
 
 2. Cleaning the surrounding area to facilitate the detection
 
 
-<img src = "/Images/Tracking_macro_3-Surrounding_cleaning.jpg" width = "1000">
+<img src = "/Images/Tracking_macro_3-Surrounding_cleaning.jpg" width = "800">
 
 3. Thresholding the hair
 
-<img src = "/Images/Tracking_macro_4-Thresholding.jpg" width = "1000">
+<img src = "/Images/Tracking_macro_4-Thresholding.jpg" width = "800">
 
 4. Performing a last background cleaning (manual step)
 5. Identifying the hair tip
@@ -57,11 +57,11 @@ This macro should be run on time lapse acquisitions where ROIs have been drawn o
 6. Performing a hair tracking correction (manual step)
 7. Performing a drifting correction (useful for the early steps of hair growth)
 
-<img src = "/Images/Tracking_macro_6Drift_correction.jpg" width = "1000">
+<img src = "/Images/Tracking_macro_6Drift_correction.jpg" width = "800">
 
 8. For each hair, save the tracking result as a ROI and the hair growth over time in a table
 
-<img src = "/Images/Tracking_macro_7-result.jpg" width = "1000">
+<img src = "/Images/Tracking_macro_7-result.jpg" width = "800">
 
 #### Running the macro
 The steps labeled with "******" can be modified if some adjustement are needed (look for them with the research tool. Shortcut: "ctlr + F"). Other steps can be of course modified, but this will be more tricky ^^
