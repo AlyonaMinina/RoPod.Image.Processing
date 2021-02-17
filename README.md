@@ -57,7 +57,7 @@ This macro should be run on time lapse acquisitions where ROIs have been drawn o
 6. Performing a hair tracking correction (manual step)
 7. Performing a drifting correction (useful for the early steps of hair growth)
 
-
+<img src = "/Images/Tracking_macro_6Drift_correction.jpg" height = "150">
 
 8. For each hair, save the tracking result as a ROI and the hair growth over time in a table
 
