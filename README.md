@@ -22,9 +22,45 @@ It is a semi-automated method that requires the software [ImageJ](https://imagej
 A [video tutorial](https://github.com/AlyonaMinina/RoPod/blob/main/Images/Hair%20tracking-demo.avi) is available to facilitate understanding
 
 ### Use of the pre-tracking macro
-The aim of this macro is to
+#### Aim of the macro
 * Preselect the root hairs that will be analysed later, highlighting them using a straight line (Manual step).
+
+<img src = "/Images/Pre_tracking_macro_hair_selection.png" height = "300">
+
 * Save the drawn lines as a Region Of Interest (ROI) in one file that will be used for a further process.
  
+#### Running the macro
 Before running the macro, you should open a file with growing root hairs (e.g. a stiched image of a root). Then run the macro, and follow the instructions.
 **It is important to  draw each straight lines starting from the basis of a hair and extending over the entire length of it.**
+
+### Use of the tracking macro
+#### Aim of the macro
+This macro should be run on time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse thoose ROIs. The main steps consists in:
+1. Drawing a coarse skeleton of the root hair (manual step)
+
+<img src = "/Images/Tracking_macro_1-Processed_hair.png" height = "300">
+
+2. Cleaning the surrounding area to facilitate the detection
+
+<img src = "/Images/Tracking_macro_3-surrounding_cleaning.png" height = "300">
+
+3. Thresholding the hair
+
+<img src = "/Images/Tracking_macro_4-hair_thresholding.png" height = "300">
+
+4. Performing a last background cleaning (manual step)
+5. Identifying the hair tip
+
+<img src = "/Images/Tracking_macro_5-hair_tip_identification.png" height = "300">
+
+6. Performing a hair trackinf correction (manual step)
+7. Performing a drifting correction (useful for the early steps of hair growth)
+
+<img src = "/Images/Tracking_macro_6-drifting_correction.png" height = "300">
+
+8. For each hair, save the tracking result as a ROI and the hair growth over time in a table
+
+<img src = "/Images/Tracking_macro_7-tracking_result.png" height = "300">
+
+#### Running the macro
+The steps labeled with "******" can be modified if some adjustement are needed (look for them with the research tool. Shortcut: "ctlr + F"). Other steps can be of course modified, but this will be more tricky ^^
