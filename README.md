@@ -18,3 +18,12 @@ the tip of a growing root hair
  <img src = "/Images/Hair_tracking.gif" height = "100">
 
 It is a semi-automated method that requires the software [ImageJ](https://imagej.nih.gov/ij/), a [pre roo hair tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/1-Pre-root%20hair%20tracking) and the chore [tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/2-Root%20hair%20tracking).
+
+A [video tutorial](https://github.com/AlyonaMinina/RoPod/blob/main/Images/Hair%20tracking-demo.avi) is available to facilitate understanding
+
+### Use of the pre-tracking macro
+The aim of this macro is to
+* Preselect the root hairs that will be analysed later, highlighting them using a straight line (Manual step).
+* Save the drawn lines as a Region Of Interest (ROI) in one file that will be used for a further process.
+ 
+Before running the macro, you should open a file with growing root hairs (e.g. a stiched image of a root).
