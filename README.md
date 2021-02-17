@@ -22,12 +22,12 @@ It is a semi-automated method that requires the software [ImageJ](https://imagej
 A [video tutorial](https://github.com/AlyonaMinina/RoPod/blob/main/Images/Hair%20tracking-demo.avi) is available to facilitate understanding
 
 ### Table of content
-* Pre-tracking macro
- * Aim of the macro
- * Running the macro
-* Tracking macro
- * Aim of the macro
- * Running the macro
+* [Pre-tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/README.md#pre-tracking-macro)
+  * [Aim of the macro](https://github.com/AlyonaMinina/RoPod#aim-of-the-macro)
+  * [Running the macro](https://github.com/AlyonaMinina/RoPod#running-the-macro)
+* [Tracking macro](https://github.com/AlyonaMinina/RoPod#tracking-macro)
+  * [Aim of the macro](https://github.com/AlyonaMinina/RoPod#aim-of-the-macro-1)
+  * [Running the macro](https://github.com/AlyonaMinina/RoPod#running-the-macro-1)
 
 ### Pre-tracking macro
 #### Aim of the macro
