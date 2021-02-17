@@ -35,13 +35,8 @@ Before running the macro, you should open a file with growing root hairs (e.g. a
 
 ### Use of the tracking macro
 #### Aim of the macro
-This macro should be run on time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image.
-
-<img src = "/Images/Tracking_macro_1-Hair_to_process.jpg" height = "300">
-
-If there are several ROIs, this macro will loop to successively analyse thoose ROIs. The main steps consists in:
+This macro should be run on time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse thoose ROIs. The main steps consists in:
 1. Drawing a coarse skeleton of the root hair (manual step)
-
 
 <img src = "/Images/Tracking_macro_2-Coarse_skeleton.jpg" height = "150">
 
@@ -57,9 +52,9 @@ If there are several ROIs, this macro will loop to successively analyse thoose R
 4. Performing a last background cleaning (manual step)
 5. Identifying the hair tip
 
-<img src = "/Images/Tracking_macro_5-Tip_identification.jpg" height = "200">
+<img src = "/Images/Tracking_macro_5-Tip_identification.jpg" height = "150">
 
-6. Performing a hair trackinf correction (manual step)
+6. Performing a hair tracking correction (manual step)
 7. Performing a drifting correction (useful for the early steps of hair growth)
 
 <img src = "/Images/Tracking_macro_6-Drift_correction.jpg" height = "150">
