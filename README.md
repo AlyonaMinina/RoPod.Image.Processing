@@ -26,4 +26,5 @@ The aim of this macro is to
 * Preselect the root hairs that will be analysed later, highlighting them using a straight line (Manual step).
 * Save the drawn lines as a Region Of Interest (ROI) in one file that will be used for a further process.
  
-Before running the macro, you should open a file with growing root hairs (e.g. a stiched image of a root).
+Before running the macro, you should open a file with growing root hairs (e.g. a stiched image of a root). Then run the macro, and follow the instructions.
+**It is important to  draw each straight lines starting from the basis of a hair and extending over the entire length of it.**
