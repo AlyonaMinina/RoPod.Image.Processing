@@ -39,12 +39,12 @@ An [image example](https://github.com/AlyonaMinina/RoPod/blob/main/Image_example
 * Save the drawn lines as a Region Of Interest (ROI) in one file that will be used for a further process.
  
 #### Running the macro
-Before running the macro, you should open a file with growing root hairs (e.g. a stiched image of a root). Then run the macro, and follow the instructions.
-**It is important to  draw each straight lines starting from the basis of a hair and extending over the entire length of it.**
+Before running the macro, you should open a file with growing root hairs (*e.g.* a stitched image of a root). Then run the macro, and follow the instructions.
+**It is important to  draw each straight line starting from the basis of a hair and extending over the entire length of it.**
 
 ### Tracking macro
 #### Aim of the macro
-This macro should be run on a **gray scale** time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse all thoose ROIs. The main steps consists in:
+This macro should be run on a **grey scale** time lapse acquisitions where ROIs have been drawn over root hair(s) (RH) of interest on the last time frame image. If there are several ROIs, this macro will loop to successively analyse all those ROIs. The main steps consist in:
 
 1. Drawing a coarse skeleton of the root hair on the final slice (manual step)
 
@@ -75,6 +75,6 @@ This macro should be run on a **gray scale** time lapse acquisitions where ROIs 
 
 #### Running the macro
 Before running the macro:
-* check the steps labeled with "******". They can be modified if some adjustements are needed depending on your image. You can look for them using the research tool of ImageJ, in the script window (Shortcut: "ctlr + F"). Recommandations about the modifications possibles are written directly next to the steps that can be modified.
-* Open the gray scale time laps of a root.
-* Create or import already drawn ROIs covering the RH to analyse (e.g. ROIs generated with the macro "Pre-root hair tracking").
+* check the steps labelled with "******". They can be modified if some adjustments are needed depending on your image. You can look for them using the research tool of ImageJ, in the script window (Shortcut: "ctlr + F"). Recommendations about the modifications possible are written directly next to the steps that can be modified.
+* Open the grey scale time laps of a root.
+* Create or import already drawn ROIs covering the RH to analyse (*e.g.* ROIs generated with the macro "Pre-root hair tracking").
