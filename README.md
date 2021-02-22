@@ -15,14 +15,13 @@ This method allows to track, from an image stack of a growing root,
 
 the tip of a growing root hair
 
- <img src = "/Images/Hair_tracking.gif" width = "800">
+ <img src = "/Images/Hair_tracking.gif" width = "300">
 
 It is a semi-automated method that requires the software [ImageJ](https://imagej.nih.gov/ij/), a [pre root hair tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/1-Pre-root%20hair%20tracking) and the chore [tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/2-Root%20hair%20tracking).
 
-A [video tutorial](https://github.com/AlyonaMinina/RoPod/blob/main/Images/Hair%20tracking-demo.avi) is available to facilitate understanding.
+Below is a video tutorial to facilitate understanding.
 
-[![Miniature](/Images/Miniature_for_video_20210222.jpg)](https://youtu.be/P79lPA15OrY "Semi-automated image analysis for root hair growth assays")
-
+[<img src = "/Images/Miniature_for_video_20210222.jpg" width = "800">](https://youtu.be/P79lPA15OrY "Video tutorial for semi-automated image analysis for root hair growth assays")
 
 An [image example](https://github.com/AlyonaMinina/RoPod/blob/main/Image_example_for_training/20191128_col-0_sucrose_002_serie_04-06.tif) is also available on GitHub to test this tool. [Example of results](https://github.com/AlyonaMinina/RoPod/tree/main/Image_example_for_training) obtained with the two macros are also accessible.
 
