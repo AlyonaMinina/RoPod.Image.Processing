@@ -20,6 +20,9 @@ the tip of a growing root hair
 It is a semi-automated method that requires the software [ImageJ](https://imagej.nih.gov/ij/), a [pre root hair tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/1-Pre-root%20hair%20tracking) and the chore [tracking macro](https://github.com/AlyonaMinina/RoPod/blob/main/2-Root%20hair%20tracking).
 
 A [video tutorial](https://github.com/AlyonaMinina/RoPod/blob/main/Images/Hair%20tracking-demo.avi) is available to facilitate understanding.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P79lPA15OrY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 An [image example](https://github.com/AlyonaMinina/RoPod/blob/main/Image_example_for_training/20191128_col-0_sucrose_002_serie_04-06.tif) is also available on GitHub to test this tool. [Example of results](https://github.com/AlyonaMinina/RoPod/tree/main/Image_example_for_training) obtained with the two macros are also accessible.
 
 ### Table of content
